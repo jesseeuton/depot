@@ -1,0 +1,418 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"this",
+				"this_will_be_converted_to_object"
+			],
+			[
+				"re",
+				"req	require \"..\""
+			],
+			[
+				"test",
+				"test"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/models/product.rb",
+			"settings":
+			{
+				"buffer_size": 98,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20130222174355_create_products.rb",
+			"settings":
+			{
+				"buffer_size": 259,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 238,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n<div id=\"product_list\">\n  <h1>Listing products</h1>\n\n  <table></table>\n\n</div>\n\n<table>\n  <tr>\n    <th> title</th>\n    <th>Description</th>\n    <th>Image url</th>\n    <th>Price</th>\n    <th></th>\n    <th></th>\n    <th></th>\n  </tr>\n\n<% @products.each do |product| %>\n  <tr>\n    <td><%= product. title %></td>\n    <td><%= product.description %></td>\n    <td><%= product.image_url %></td>\n    <td><%= product.price %></td>\n    <td><%= link_to 'Show', product %></td>\n    <td><%= link_to 'Edit', edit_product_path(product) %></td>\n    <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>\n  </tr>\n<% end %>\n</table>\n\n<br />\n\n<%= link_to 'New Product', new_product_path %>\n",
+			"file": "app/views/products/index.html.erb",
+			"file_size": 658,
+			"file_write_time": 1361555035000000,
+			"settings":
+			{
+				"buffer_size": 712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nZenCoding:\n---------\n\n  This Zen Coding plugin is outdated and will never receive\n  any updates in future. In two weeks the repo will <s>be unpublished.</s>\n  \n  \n          Tue Feb 12 13:13:52 2013:\n  \n              AS PORTENDED 3 MONTHS PRIOR THIS REPO HAS BEEN UNPUBLISHED\n  \n  \n  Consider switching to Emmet -- a re-branded Zen Coding project\n  packed with new awesome features:\n  \n  * Dynamic CSS abbreviations, automatic vendor prefixes and gradient generator.\n  * Better Tab key handler.\n  * \"Lorem Ipsum\" generator.\n  * Implicit tag names.\n  * JavaScript extensions support.\n  * New ^ operator.\n  * Various fixes and improvements.\n  \n  The new plugin is available in Package Control: just run\n  \"Install Package\" command and install \"Emmet\" plugin. Please remove\n  or disable current Zen Coding in order to make things work right.\n  \n  Extensive documentation about all Emmet features is available at http://docs.emmet.io\n\n\nEmmet:\n-----\n\n  Thank you for installing Emmet -- a toolkit that can greatly improve your workflow. Note that this plugin automatically downloads and installs PyV8 binary (see status bar message). \n  \n  ******************************\n  Please restart editor \n  to finish installation process \n  after PyV8 was downloaded.\n  ******************************\n  \n  Tab key handler\n  ==========================\n  \n  By default, Emmet allows you to expand abbreviations with Tab key in HTML, XML, HAML and CSS/SASS/LESS/Stylus documents. As a side effect, you can’t use some of your ST2 snippets.\n  \n  Please read https://github.com/sergeche/emmet-sublime#tab-key-handler about how Tab handler works and how to tweak its behavior to match your needs.\n  \n  Enter key\n  ==========================\n  \n  In HTML and XML documents, Emmet overrides Enter key to insert formatted line breaks between opening and closing tags. In some cases it will break character input (for example, in Japanese language).\n  \n  To disable Enter key handler, simply add the following option in your user's Preferences file:\n  \n  \"disable_formatted_linebreak\": true\n  \n  Actions shortcuts\n  ==========================\n  \n  Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:\n  https://github.com/sergeche/emmet-sublime\n  \n  Documentation and examples:\n  http://docs.emmet.io\n  \n  ------------------------------\n  Follow me on Twitter: @emmetio\n  ------------------------------\n  \n",
+			"settings":
+			{
+				"buffer_size": 2628,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 247.0,
+		"selected_items":
+		[
+			[
+				"paclage",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax: html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syntax: HTML	",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"PROJECT",
+				"Project: Add Folder"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"PACKAGE",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jesseeuton/Library/Application Support/Sublime Text 2/Packages/DetectSyntax/DetectSyntax.sublime-settings",
+		"/Users/jesseeuton/code/ruby/projects/depot/app/views/products/_form.html.erb",
+		"/Users/jesseeuton/code/ruby/projects/depot/app/views/products/new.html.erb",
+		"/Users/jesseeuton/code/ruby/projects/depot/public/stylesheets/depot.css",
+		"/Users/jesseeuton/code/ruby/projects/depot/public/stylesheets",
+		"/Users/jesseeuton/code/ruby/projects/depot/config/application.rb",
+		"/Users/jesseeuton/code/ruby/projects/depot/db/seeds.rb",
+		"/Users/jesseeuton/code/ruby/projects/depot/public/robots.txt",
+		"/Users/jesseeuton/code/ruby/projects/depot/app/models/product.rb",
+		"/Users/jesseeuton/code/ruby/projects/depot/test/fixtures/products.yml",
+		"/Users/jesseeuton/code/ruby/projects/demo/app/views/say/hello.html.erb",
+		"/Users/jesseeuton/code/ruby/projects/demo/app/controllers/say_controller.rb",
+		"/Users/jesseeuton/code/ruby/projects/demo/app/views/say/goodbye.html.erb",
+		"/Users/jesseeuton/code/ruby/projects/demo/app/views/say/files.html.erb",
+		"/Users/jesseeuton/code/ruby/projects/depot/db/migrate/20130222174355_create_products.rb",
+		"/Users/jesseeuton/code/ruby/projects/demo/config/routes.rb",
+		"/Users/jesseeuton/code/ruby/learn/enumerator.rb",
+		"/Users/jesseeuton/code/ruby/learn/blocks.rb",
+		"/Users/jesseeuton/code/ruby/learn/modules.rb",
+		"/Users/jesseeuton/code/ruby/learn/modules2.rb",
+		"/Users/jesseeuton/code/ruby/learn/EnumAndIteratorModules.rb",
+		"/Users/jesseeuton/code/ruby/learn/attributes.rb",
+		"/Users/jesseeuton/code/ruby/learn/verify_sqlite3.rb",
+		"/Users/jesseeuton/code/ruby/learn/hash_into.rb",
+		"/Users/jesseeuton/code/ruby/learn/iteration.rb",
+		"/Users/jesseeuton/code/ruby/learn/yield.rb",
+		"/Users/jesseeuton/code/ruby/learn/enumerator",
+		"/Users/jesseeuton/code/ruby/learn/init.rb",
+		"/Users/jesseeuton/Library/Application Support/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/Users/jesseeuton/Library/Application Support/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/Users/jesseeuton/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/jesseeuton/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jesseeuton/code/ruby/learn/attributes",
+		"/Users/jesseeuton/code/ruby/learn/symbols_intro.rb",
+		"/Users/jesseeuton/Library/Application Support/Sublime Text 2/Packages/RubyTest/RubyTest.sublime-settings",
+		"/Users/jesseeuton/code/ruby/learn/truthiness.rb",
+		"/Users/jesseeuton/code/ruby/learn/array_operations.rb",
+		"/Users/jesseeuton/code/ruby/learn/arrays1.rb",
+		"/Users/jesseeuton/code/ruby/learn/bool_test.rb",
+		"/Users/jesseeuton/code/ruby/learn/ifelse_test.rb",
+		"/Users/jesseeuton/code/ruby/learn/loops.rb",
+		"/Users/jesseeuton/code/ruby/learn/number_test.rb",
+		"/Users/jesseeuton/code/ruby/learn/string_test.rb",
+		"/usr/local/rvm/bin/rvm-auto-ruby",
+		"/Users/jesseeuton/bin/rvm_ruby",
+		"/Users/jesseeuton/Library/Application Support/Sublime Text 2/Packages/Ruby/Ruby.sublime-build",
+		"/Users/jesseeuton/Library/Application Support/Sublime Text 2/Ruby.sublime-build",
+		"/Users/jesseeuton/bin/2/Packages/Ruby/Ruby.sublime-build",
+		"/Users/jesseeuton/bin/Text",
+		"/Users/jesseeuton/bin/Support/Sublime",
+		"/Users/jesseeuton/Library/Application",
+		"/Users/jesseeuton/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jesseeuton/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings.backup",
+		"/Users/jesseeuton/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			")\n",
+			"theme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/models/product.rb",
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "db/migrate/20130222174355_create_products.rb",
+					"settings":
+					{
+						"buffer_size": 259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								259,
+								259
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/products/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 2628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1430,
+								1430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 267.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 429.0,
+	"status_bar_visible": true
+}
