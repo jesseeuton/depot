@@ -1,4 +1,7 @@
 class Product < ActiveRecord::Base
+  #default sort for Product records
+  default_scope :order => 'title'
+
   attr_accessible :title, :description, :image_url, :price
 
   validates :title, :description, :image_url, :presence=>true
@@ -8,4 +11,5 @@ class Product < ActiveRecord::Base
     :with => %r{\.(gif|jpg|png)$}i,
     :message => 'must be a URL for GIF, JPG, or PNG image.'
   }
+  validates :title, :length => { :minimum => 10 }
 end

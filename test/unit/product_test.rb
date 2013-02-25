@@ -1,4 +1,4 @@
-require '../test_helper.rb'
+require 'test_helper'
 
 class ProductTest < ActiveSupport::TestCase
   fixtures :products
@@ -72,6 +72,17 @@ class ProductTest < ActiveSupport::TestCase
     assert !product.save
     assert_equal I18n.translate('activerecord.errors.messages.taken'), product.errors[:title].join('; ')
   end
+
+  test "product length must be greater than 10" do
+    product = Product.new(:title => "srt th 10",
+      :description => "yyy",
+      :price => 1,
+      :image_url => "fred.gif")
+
+    assert !product.save, "Failed to validate the product length"
+  end
+
+
 
   
 

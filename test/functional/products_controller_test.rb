@@ -53,4 +53,10 @@ class ProductsControllerTest < ActionController::TestCase
 
     assert_redirected_to products_path
   end
+
+  test "odd columns" do
+    get :index
+    assert_response :success
+    assert_select "#product_list", :minimum => 1
+  end
 end
